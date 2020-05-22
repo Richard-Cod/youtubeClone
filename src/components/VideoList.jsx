@@ -11,17 +11,9 @@ export default function VideoList(props) {
     
 
     const data = props.data;
-    const pageInfo = props.pageInfo
   const [videoPlayingId,setVideoPlayingId] = useState("")
 
-    
 
-
-    const changementPage = function(e){
-        const numero = e.selected +1 
-        console.log(numero)
-    }
-   
 
     return(
        data ?

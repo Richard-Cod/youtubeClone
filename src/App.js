@@ -133,7 +133,7 @@ useBottomScrollListener(callback);
 
   
 
-    {result.length !==0 && <VideoList data={data} pageInfo = {result.pageInfo} />}
+    {result.length !==0 && <VideoList data={data} />}
 
     {loading && <span> <Spinner animation="border" variant="primary" size="lg" /> chargement des résultats</span>}
 
